@@ -1,0 +1,45 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "timestamps",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "channelTitle",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "videoDescr",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "time",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "timestamps",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "videoDescr",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "time",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

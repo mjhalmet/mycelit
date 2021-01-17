@@ -1,0 +1,398 @@
+
+table {
+  display: table;
+  width: 100%;
+}
+
+td.timeTd {
+  vertical-align: top;
+  width: 20%;
+  padding-bottom: 10px;
+}
+
+td.stampDescrTd {
+  vertical-align: top;
+  max-width: 300px;
+  word-wrap:break-word;
+  padding-bottom: 10px;
+}
+
+td.tableButtonsTd {
+  text-align: right;
+  vertical-align: top;
+  padding-bottom: 10px;
+}
+
+.fullWidth{
+  display: inline-block;
+  width: 100%;
+}
+
+
+/*Prevent double-click-painting on makeshift buttons*/
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+/*-----------------Navigation bar styling---------------------*/
+.navbar-color {
+  background: #536976;
+  background: -webkit-linear-gradient(to right, #292E49, #536976);
+  background: linear-gradient(to right, #292E49, #536976);
+  
+}
+
+.background {
+  background: rgb(45, 46, 51);
+  min-height: 100vh;
+}
+
+a{
+  color: #f2f2f2;
+  text-decoration:none;
+}
+
+#Nav a:hover {
+ color: rgb(151, 151, 156);
+}
+
+a.active { 
+ color: rgb(151, 151, 156);
+}
+
+.nav-width {
+  min-width: 650px;
+  width: 75%;
+}
+
+#showLibraryNav {
+  display: none;
+}
+
+#showEditPageNav {
+  display: none;
+}
+
+/*-----------------Landingpage's picture behind animation---------------------*/
+
+.animationPic {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url('./images/landingpage/landingpageSmall.png');
+}
+
+.landingpagestretch{
+  min-height: 100vh;
+  padding-top: 35px;
+  width: 100%;
+}
+
+/*-----------------Sign In button styling---------------------*/
+#customBtn {
+  display: inline-block;
+  background: white;
+  color: #444;
+  width: 180px;
+  margin-top: 7px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px grey;
+  white-space: nowrap;
+}
+
+#customBtn:hover {
+  cursor: pointer;
+}
+
+span.icon {
+  background: url('./images/navbar/google-icon2.png') transparent 9px 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 25px;
+}
+
+span.buttonText {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 42px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+}
+
+.nav-font {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 42px;
+  font-size: 20px;
+  color: white;
+  margin-top: 5px;
+  font-family: "Rubik", sans-serif;
+}
+
+/*-----------------Logout button styling---------------------*/
+
+#logoutButton {
+  display: none;
+  background: white;
+  color: #444;
+  width: 100px;
+  margin-top: 7px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px grey;
+  white-space: nowrap;
+}
+
+#logoutButton:hover {
+  cursor: pointer;
+}
+
+span.logout-text {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  color: black;
+  margin-top: 0px;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+}
+
+span.logout-icon {
+  background: url('./images/navbar/logout.png') transparent 9px 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 25px;
+}
+
+/*-----------------Welcome text styling---------------------*/
+
+.welcomeText {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 42px;
+  font-size: 17px;
+  color: white;
+  margin-top: 8px;
+  font-family: "Rubik", sans-serif;
+}
+
+/*-----------------Playlist.js and YouTube.js styling---------------------*/
+
+#playlistContainer {
+  margin: auto;
+  margin-top: 6.5%;
+  width: 30%;
+  height: 1200px;
+  border: 3px;
+  padding: 10px;
+  padding-top: 0%;
+}
+
+#videoContainer {
+  margin: auto;
+  margin-top: 6.5%;
+  border: 3px;
+  padding: 10px;
+  padding-top: 0%;
+}
+
+
+.videoItem {
+  margin: auto;
+  width: 100%;
+  border: 3px solid black;
+  padding: 1.5%;
+  background: white;
+}
+
+.playlistItem {
+  margin-bottom: 5%;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+  padding: 1.5%;
+  background: white;
+}
+
+.videoThumbnail {
+  height: 100%;
+  width: 100%;
+}
+
+.videoSnippetTitle {
+  font-size: 2vmin;
+  color: black;
+}
+
+.itemHover:hover {
+  cursor: pointer;
+}
+
+#stampText {
+  margin-top: 10px;
+  width: 100%;
+}
+
+
+/*-----------------NotFound.js styling---------------------*/
+
+#not-found-main-text{
+  font-size: 4vmin;
+  color: white;
+}
+
+/*-----------------Library.js styling---------------------*/
+
+.tableBackgroundWrapper {
+  background: white;
+}
+
+.tableBackground {
+  margin: auto;
+  border-bottom: 0.5px solid rgb(228, 225, 225);
+  padding: 1%;
+  padding-top: 0%;
+  min-width: 900px;
+  width: 70%;
+}
+
+.closedTableBackgroundWrapper {
+  background: white;
+}
+
+.closedTableBackground {
+  margin: auto;
+  border-bottom: 1px solid rgb(228, 225, 225);
+  padding: 1%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  min-width: 900px;
+  width: 70%;
+  border-radius: 10px;
+  margin-bottom: 0px;
+}
+
+.libraryItemsRoundedDiv {
+  background: white;
+  border-radius: 0px 10px;
+  padding: 10px;
+}
+
+.libraryItemButtonVideo {
+  background: white;
+  margin: auto;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-bottom: 0.5%;
+  min-width: 900px;
+  width: 70%;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  height: 35px;
+}
+
+.libraryItemButtonChannel {
+  margin: auto;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-bottom: 0.5%;
+  min-width: 900px;
+  width: 70%;
+  border-radius: 4px;
+  margin-bottom: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  height: 35px;
+}
+
+.libraryItemButtonChannel:hover {
+  cursor: pointer;
+  box-shadow: inset 0 0 0 1000px rgba(175, 200, 231, 0.2);
+}
+
+.libraryItemButtonVideo:hover {
+  cursor: pointer;
+  box-shadow: inset 0 0 0 1000px rgba(175, 200, 231, 0.2);
+}
+
+.libraryWrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}
+
+.pickupListWrapper {
+  margin-right: 0.3%;
+}
+
+.pickupListH3 {
+  background: rgba(198, 214, 248, 0.979);
+}
+
+.pickupListBackgroundDiv {
+  width: 100%;
+}
+
+.pickupListTd {
+  padding-left: 14px;
+  white-space: nowrap;
+  min-width: 300px;
+}
+
+.pickupListSpan {
+  word-break: keep-all;
+}
+
+.myTablePickupButton {
+  margin: 1%;
+  margin-bottom: 1%;
+  margin-top: 0;
+}
+
+.myTableDeleteButton {
+  margin: 1%;
+  margin-bottom: 1%;
+  margin-top: 0;
+  margin-left: 0.45%;
+}
+
+.pickupListDelButton {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 2px;
+  margin-left: 10px;
+  margin-right: 13px;
+}
+
+.pickupListTable {
+  background: rgb(175, 200, 231);
+  border-radius: 10px;
+  table-layout: auto;
+  width: 100%;
+}
+
+.tableFakePadding {
+  height: 10px;
+}
+
+.libraryFooter {
+  height: 200px;
+}
